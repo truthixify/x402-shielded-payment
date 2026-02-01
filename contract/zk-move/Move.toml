@@ -1,0 +1,16 @@
+[package]
+name = "zkVerification"
+version = "1.0.0"
+authors = []
+
+[addresses]
+fresh_verifier = "0x7e11ac581ee378ba284e922af02bb102ac4d232310ce709825f457b9be65a29a"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]

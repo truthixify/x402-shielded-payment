@@ -1,0 +1,20 @@
+{
+  "name": "@aptos-x402/contract",
+  "version": "1.0.0",
+  "description": "Shielded Pool Move contracts for Aptos",
+  "private": true,
+  "scripts": {
+    "build": "aptos move compile --dev",
+    "test": "aptos move test --dev",
+    "deploy": "aptos move deploy-object --address-name shielded_pool --assume-yes"
+  },
+  "keywords": [
+    "aptos",
+    "move",
+    "shielded-pool",
+    "privacy",
+    "zk-snarks"
+  ],
+  "author": "Aptos x402 Team",
+  "license": "MIT"
+}

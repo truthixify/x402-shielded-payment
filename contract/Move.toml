@@ -1,0 +1,22 @@
+[package]
+name = "shielded_pool"
+version = "1.0.0"
+authors = []
+
+[addresses]
+shielded_pool = "_"
+
+[dev-addresses]
+shielded_pool = "0x123"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dependencies.AptosStdlib]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-stdlib"
+
+[dev-dependencies]

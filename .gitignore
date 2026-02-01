@@ -1,0 +1,7 @@
+tornado-nova-evm
+x402-minimal-facilitator-aptos
+zk-aptos-sdk
+**/node_modules
+**/.env
+**/.aptos
+**/build

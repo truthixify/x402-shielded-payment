@@ -1,0 +1,40 @@
+{
+  "name": "aptos-x402",
+  "version": "1.0.0",
+  "description": "x402 Shielded Payments on Aptos using Shielded Pool",
+  "private": true,
+  "workspaces": [
+    "contract",
+    "circuits", 
+    "shielded-facilitator",
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "install:all": "npm install",
+    "build:contracts": "npm run build --workspace=contract",
+    "test:contracts": "npm run test --workspace=contract",
+    "deploy:contracts": "npm run deploy --workspace=contract",
+    "build:circuits": "npm run build --workspace=circuits",
+    "start:facilitator": "npm start --workspace=shielded-facilitator",
+    "dev:facilitator": "npm run dev --workspace=shielded-facilitator",
+    "dev:client": "npm run dev --workspace=client",
+    "build:client": "npm run build --workspace=client",
+    "dev:server": "npm run dev --workspace=server",
+    "start:server": "npm start --workspace=server"
+  },
+  "keywords": [
+    "aptos",
+    "x402",
+    "privacy",
+    "payments",
+    "shielded-pool",
+    "zk-snarks",
+    "move"
+  ],
+  "author": "Aptos x402 Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
